@@ -20,7 +20,7 @@ git clone https://github.com/LaetsCode/ECF_EmailFR.git
 The script takes one argument in the command line : the text file you want to extract french emails from.
 
 ```bash
-python3 EmailFR.py inputfile.txt
+python3 EmailFR.py testfile.txt
 
 ```
 And the console output will be the adresses.
