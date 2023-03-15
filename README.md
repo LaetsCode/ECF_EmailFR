@@ -1,7 +1,7 @@
 # EmailFR
 
-EmailFR is a Python script to extract french email adress from a text file.
-The email pattern follows has to follow a few rules :
+EmailFR is a Python script to extract french email adresses from a text file.
+The email pattern has to follow a few rules :
 - some special characters are unauthorized, following [gmail](https://support.google.com/mail/answer/9211434?hl=en) rules
 - it can't start with a "." 
 - it must end in ".fr"
