@@ -9,7 +9,7 @@ lines = file.readlines()
 file.close()
 
 genericemailpattern = r'\b.+@[A-Za-z0-9.-]+\.fr\b'
-unauthorizedchars = ["&", "=", "_", "'", "-", "+", ",", ">", "<", ".."]
+unauthorizedchars = ["&", "=", "_", "'", "-", "+", ",", ">", "<", "..", ".@"]
 
 for line in lines : 
     for element in line.split(" ") : 
